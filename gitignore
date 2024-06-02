@@ -1,0 +1,79 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files and other runtime data
+logs/
+*.log
+
+# Ignore development and build directories
+dist/
+coverage/
+.build/
+.nyc_output/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore package-lock.json
+package-lock.json
+
+# Ignore .DS_Store on macOS
+.DS_Store
+
+# Ignore IDE or text editor-specific files
+.vscode/
+.idea/
+
+# Ignore system or temporary files
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.swm
+*.bak
+*~
+
+# Ignore configuration files with sensitive data
+config/*.json
+config/*.yaml
+
+# Ignore any files or directories that may contain sensitive information
+secrets/
+keys/
+
+# Ignore built application files
+/build/
+
+# Ignore user-specific files and directories
+*.iml
+*.DS_Store
+*.suo
+*.user
+*.sln
+*.swp
+*.swo
+*.swn
+
+# Ignore Visual Studio Code settings directory
+.vscode/
+
+# Ignore dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# Ignore yarn v2 (berry) files
+.yarn/
+.pnp.*
+.yarn-integrity
+
+# Ignore npm-debug.log
+npm-debug.log
+
+# Ignore pnpm-lock.yaml
+pnpm-lock.yaml
+
+# Ignore yarn error logs
+.yarn-error.log
